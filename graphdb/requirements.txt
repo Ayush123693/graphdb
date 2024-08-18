@@ -1,0 +1,3 @@
+blazegraph
+pyblazegraph
+python-dotenv

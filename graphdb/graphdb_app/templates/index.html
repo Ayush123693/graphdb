@@ -1,0 +1,18 @@
+<>GraphDB Management<h1>GraphDB Management</h1>
+<h1>GraphDB Management</h1>
+<ul>
+    <li>first item</li>
+    <li>
+      second item
+    
+      <ol>
+        <li>GraphDB</li>
+        <li>GraphDB length= 21</li>
+        <li>GraphDB description= this is the graphdb project</li>
+      </ol>
+      
+    </li>
+    <li>third item</li>
+  </ul>
+add_graphdb.html: <form method="post">Name: <input type="text" name="name"><br> Description: <textarea name="description"></textarea><br>Blazegraph URL: <input type="text" name="blazegraph_url"><br>Blazegraph User: <input type="text" name="blazegraph_user"><br>Blazegraph Password: <input type="password" name="blazegraph_password"><br><input type="submit" value="Add GraphDB">
+upload_ttl.html: <form method="post" enctype="multipart/form-data">Upload TTL file: <input type="file" name="ttl_file"><br><input type="submit" value="Upload TTL">
